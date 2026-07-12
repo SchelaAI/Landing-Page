@@ -5,6 +5,15 @@ export const metadata: Metadata = {
   title: "Schela — The AI Recruiting Coordinator",
   description:
     "Schela's AI reaches out to candidates, books interview slots, sends reminders, and handles rescheduling — across WhatsApp and Email, automatically.",
+  icons: {
+    icon: "/s.png",
+    shortcut: "/s.png",
+    apple: "/s.png",
+    other: {
+      rel: "icon",
+      url: "/s.png",
+    },
+  },
 };
 
 export default function RootLayout({
