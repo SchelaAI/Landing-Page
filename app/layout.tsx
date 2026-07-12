@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   description:
     "Schela's AI reaches out to candidates, books interview slots, sends reminders, and handles rescheduling — across WhatsApp and Email, automatically.",
   icons: {
-    icon: "/s.png",
-    shortcut: "/s.png",
-    apple: "/s.png",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
     other: {
       rel: "icon",
-      url: "/s.png",
+      url: "/favicon.ico",
     },
   },
 };
