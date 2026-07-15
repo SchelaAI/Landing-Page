@@ -8,7 +8,24 @@ export default function Home() {
       <nav className="nav" id="nav">
         <div className="wrap nav-inner">
           <div className="brand">
-            <div className="logomark" style={{ fontWeight: "450" }}>S</div>
+            <div className="logomark" style={{ fontWeight: "450" }}>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="28" height="28" style={{ display: "block" }}>
+                <rect x="0" y="0" width="1200" height="1200" rx="260" fill="#6D28D9" />
+                <g fill="#FFFFFF">
+                  <circle cx="600" cy="660" r="46" />
+                  <line x1="600" y1="660" x2="600" y2="280" stroke="#FFFFFF" strokeWidth="88" strokeLinecap="butt" />
+                  <line x1="600" y1="660" x2="929" y2="850" stroke="#FFFFFF" strokeWidth="88" strokeLinecap="butt" />
+                  <line x1="600" y1="660" x2="271" y2="850" stroke="#FFFFFF" strokeWidth="88" strokeLinecap="butt" />
+                  <rect x="459.4" y="567" width="56" height="56" transform="rotate(45 487.4 595)" />
+                  <rect x="372.8" y="517" width="46" height="46" transform="rotate(45 400.8 545)" />
+                  <rect x="684.6" y="567" width="56" height="56" transform="rotate(45 712.6 595)" />
+                  <rect x="776.2" y="517" width="46" height="46" transform="rotate(45 799.2 545)" />
+                  <rect x="575" y="745" width="50" height="50" />
+                  <rect x="575" y="845" width="50" height="50" />
+                </g>
+              </svg>
+            </div>
+
             <span className="wordmark" style={{ fontWeight: "450" }}>Schela</span>
           </div>
           <div className="nav-links" style={{ fontWeight: "450" }}>
@@ -31,7 +48,21 @@ export default function Home() {
       <div className="mobile-menu" id="mobileMenu">
         <div className="mobile-menu-top">
           <div className="brand">
-            <div className="logomark">S</div>
+            <div className="logomark"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="28" height="28" style={{ display: "block" }}>
+              <rect x="0" y="0" width="1200" height="1200" rx="260" fill="#6D28D9" />
+              <g fill="#FFFFFF">
+                <circle cx="600" cy="660" r="46" />
+                <line x1="600" y1="660" x2="600" y2="280" stroke="#FFFFFF" strokeWidth="88" strokeLinecap="butt" />
+                <line x1="600" y1="660" x2="929" y2="850" stroke="#FFFFFF" strokeWidth="88" strokeLinecap="butt" />
+                <line x1="600" y1="660" x2="271" y2="850" stroke="#FFFFFF" strokeWidth="88" strokeLinecap="butt" />
+                <rect x="459.4" y="567" width="56" height="56" transform="rotate(45 487.4 595)" />
+                <rect x="372.8" y="517" width="46" height="46" transform="rotate(45 400.8 545)" />
+                <rect x="684.6" y="567" width="56" height="56" transform="rotate(45 712.6 595)" />
+                <rect x="776.2" y="517" width="46" height="46" transform="rotate(45 799.2 545)" />
+                <rect x="575" y="745" width="50" height="50" />
+                <rect x="575" y="845" width="50" height="50" />
+              </g>
+            </svg></div>
             <span className="wordmark">Schela</span>
           </div>
           <button className="mobile-close" id="mobileCloseBtn" aria-label="Close menu">
@@ -55,7 +86,7 @@ export default function Home() {
         <div className="hero-bg-glow"></div>
         <div className="wrap hero-inner">
           <span className="building-badge blink-slow"><span className="building-dot"></span>BUILDING</span>
-     
+
           <h1 aria-label="Stop chasing. Start hiring.">
             <span className="hero-line" id="heroLine1" aria-hidden="true"></span><br />
             <span className="hero-line" id="heroLine2" aria-hidden="true">
@@ -496,7 +527,7 @@ export default function Home() {
               <div className="integ-name">Greenhouse</div>
               <div className="integ-cat">ATS</div>
             </div>
-      
+
             <div className="integ-card">
               <div className="integ-icon">
                 <img width={48} height={48} src="https://img.icons8.com/fluency/48/microsoft-outlook-2025.png" alt="Microsoft Outlook" />
@@ -534,9 +565,9 @@ export default function Home() {
                   alt="Lever"
                   style={{ display: "block", margin: "0 auto", maxWidth: "36px", maxHeight: "36px", objectFit: "contain" }}
                 />
-          
+
               </div>
-        
+
               <div className="integ-name">Lever</div>
               <div className="integ-cat">ATS</div>
             </div>
@@ -557,7 +588,7 @@ export default function Home() {
           </div>
         </div>
       </section>
- 
+
 
       {/* ============ ASK SCHELA ============ */}
       <section className="section-pad">
@@ -676,7 +707,21 @@ export default function Home() {
       <footer className="footer">
         <div className="wrap footer-inner">
           <div className="brand">
-            <div className="logomark">S</div>
+            <div className="logomark"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="28" height="28" style={{ display: "block" }}>
+              <rect x="0" y="0" width="1200" height="1200" rx="260" fill="#6D28D9" />
+              <g fill="#FFFFFF">
+                <circle cx="600" cy="660" r="46" />
+                <line x1="600" y1="660" x2="600" y2="280" stroke="#FFFFFF" strokeWidth="88" strokeLinecap="butt" />
+                <line x1="600" y1="660" x2="929" y2="850" stroke="#FFFFFF" strokeWidth="88" strokeLinecap="butt" />
+                <line x1="600" y1="660" x2="271" y2="850" stroke="#FFFFFF" strokeWidth="88" strokeLinecap="butt" />
+                <rect x="459.4" y="567" width="56" height="56" transform="rotate(45 487.4 595)" />
+                <rect x="372.8" y="517" width="46" height="46" transform="rotate(45 400.8 545)" />
+                <rect x="684.6" y="567" width="56" height="56" transform="rotate(45 712.6 595)" />
+                <rect x="776.2" y="517" width="46" height="46" transform="rotate(45 799.2 545)" />
+                <rect x="575" y="745" width="50" height="50" />
+                <rect x="575" y="845" width="50" height="50" />
+              </g>
+            </svg></div>
             <span className="footer-copy">© 2026 Schela. All rights reserved.</span>
           </div>
           <div className="footer-links">
@@ -698,7 +743,21 @@ export default function Home() {
 
           <div id="jmFormWrap">
             <div className="jm-header">
-              <div className="jm-logo-row"><div className="logomark">S</div></div>
+              <div className="jm-logo-row"><div className="logomark"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="28" height="28" style={{ display: "block" }}>
+                <rect x="0" y="0" width="1200" height="1200" rx="260" fill="#6D28D9" />
+                <g fill="#FFFFFF">
+                  <circle cx="600" cy="660" r="46" />
+                  <line x1="600" y1="660" x2="600" y2="280" stroke="#FFFFFF" strokeWidth="88" strokeLinecap="butt" />
+                  <line x1="600" y1="660" x2="929" y2="850" stroke="#FFFFFF" strokeWidth="88" strokeLinecap="butt" />
+                  <line x1="600" y1="660" x2="271" y2="850" stroke="#FFFFFF" strokeWidth="88" strokeLinecap="butt" />
+                  <rect x="459.4" y="567" width="56" height="56" transform="rotate(45 487.4 595)" />
+                  <rect x="372.8" y="517" width="46" height="46" transform="rotate(45 400.8 545)" />
+                  <rect x="684.6" y="567" width="56" height="56" transform="rotate(45 712.6 595)" />
+                  <rect x="776.2" y="517" width="46" height="46" transform="rotate(45 799.2 545)" />
+                  <rect x="575" y="745" width="50" height="50" />
+                  <rect x="575" y="845" width="50" height="50" />
+                </g>
+              </svg></div></div>
               <span className="jm-badge">COMING SOON</span>
               <h2 className="jm-headline" id="jmHeadline">Be first when we launch.</h2>
               <p className="jm-subline">Schela isn't live yet. Leave your details — we'll reach out personally when beta opens.</p>
